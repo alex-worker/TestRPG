@@ -1,29 +1,26 @@
 import Phaser from 'phaser'
 
-import Preload from './scenes/Preload';
+import globals from './globals'
+
+// import Preload from './scenes/Preload';
 import RL from './scenes/RL';
-
-// font size
-const FONT = 32
- 
-// map dimensions
-const ROWS = 15
-const COLS = 15
-
-const width = COLS * FONT
-const height = ROWS * FONT
+// import Tiled from './scenes/Tiled';
 
 const scene = [
-    Preload,
+    // Preload,
     RL
+    // Tiled
 ]
+
+/* eslint-disable no-console */
+console.log( globals )
 
 const config = {
     type: Phaser.AUTO,
     pixelArt: true,
     clearBeforeRender: false,
-    width,
-    height,
+    width: globals.width,
+    height: globals.height,
     scene
 }
 
