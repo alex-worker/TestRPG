@@ -65,7 +65,7 @@ export default class RL extends Phaser.Scene {
           right: cursors.right,
           up: cursors.up,
           down: cursors.down,
-          speed: 0.5
+          speed: 1
         });
         /* eslint-disable no-console */
         // console.log( initMap() )

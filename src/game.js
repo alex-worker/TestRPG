@@ -19,6 +19,7 @@ const config = {
     type: Phaser.AUTO,
     pixelArt: true,
     clearBeforeRender: false,
+    zoom: globals.ZOOM,
     width: globals.width,
     height: globals.height,
     scene
