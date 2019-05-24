@@ -5,3 +5,4 @@ release_old/
 yarn-error.log
 dev/
 
+yarn.lock

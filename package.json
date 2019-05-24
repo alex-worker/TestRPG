@@ -28,6 +28,7 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
+    "parcel": "^1.12.3",
     "phaser": "^3.17.0"
   }
 }
